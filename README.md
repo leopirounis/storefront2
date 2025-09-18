@@ -1,6 +1,6 @@
 # Django Storefront2
 
-A fully-featured e-commerce backend built with Django and Django REST Framework, designed to manage products, customers, and orders efficiently. The project implements secure user authentication, role-based access control, and a RESTful API structure for seamless integration with front-end clients or third-party services.
+Storefront2 is a secure e-commerce API built with Django and Django REST Framework. It features an advanced API architecture with serializers, a fully functional shopping cart, and a robust order management system. The project includes Django’s authentication system for secure user management and role-based access, as well as an admin interface for managing products, customers, and orders efficiently. Designed with security and best practices in mind, it provides a solid backend foundation for any e-commerce application.
 
 ### Key Features:
 
