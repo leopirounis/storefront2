@@ -22,7 +22,6 @@ REST API endpoints for all core resources, ready for frontend or mobile integrat
 ### Security & Best Practices: 
 Role-based permissions, environment variable management for sensitive data, and proper database handling.
 
-This project demonstrates a scalable backend architecture, clean code organization, and practical implementation of Django’s ORM, serializers, viewsets, and authentication mechanisms.
 ---
 
 ## 🚀 Getting Started
