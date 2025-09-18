@@ -47,32 +47,19 @@ source .venv/bin/activate   # macOS/Linux
 pip install -r requirements.txt
 ```
 
-### 4. Set environment variables
-
-Create a `.env` file in the project root :
-
-```
-SECRET_KEY=your_secret_key_here
-DB_NAME=storefront2
-DB_USER=your_db_user
-DB_PASSWORD=your_db_password
-DB_HOST=localhost
-DB_PORT=3306
-```
-
-### 5. Run migrations
+### 4. Run migrations
 
 ```bash
 python manage.py migrate
 ```
 
-### 6. Create superuser (for admin access)
+### 5. Create superuser (for admin access)
 
 ```bash
 python manage.py createsuperuser
 ```
 
-### 7. Run the development server
+### 6. Run the development server
 
 ```bash
 python manage.py runserver
