@@ -44,25 +44,25 @@ source .venv/bin/activate   # macOS/Linux
 ### 3. Install dependencies
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ### 4. Run migrations
 
 ```bash
-python manage.py migrate
+python3 manage.py migrate
 ```
 
 ### 5. Create superuser (for admin access)
 
 ```bash
-python manage.py createsuperuser
+python3 manage.py createsuperuser
 ```
 
 ### 6. Run the development server
 
 ```bash
-python manage.py runserver
+python3 manage.py runserver
 ```
 
 Now open: [http://127.0.0.1:8000/store/](http://127.0.0.1:8000/store/)
@@ -74,7 +74,7 @@ Now open: [http://127.0.0.1:8000/store/](http://127.0.0.1:8000/store/)
 If you want to load some test data:
 
 ```bash
-python manage.py loaddata seed.json
+python3 manage.py loaddata seed.json
 ```
 
 or import `seed.sql` into MySQL.
