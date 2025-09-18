@@ -1,0 +1,38 @@
+# Python
+
+\*.pyc
+\*.pyo
+\*.pyd
+**pycache**/
+
+# Virtual environments
+
+.venv/
+env/
+venv/
+
+# Django / Databases
+
+\*.db
+\*.sqlite3
+db.sqlite3
+\*.log
+
+# Media / Static (if generated)
+
+media/
+staticfiles/
+
+# IDEs and OS junk
+
+.vscode/
+.idea/
+.DS\_Store
+
+# Environment / Secrets
+
+.env
+
+# Migration caches
+
+\*/migrations/**pycache**/
